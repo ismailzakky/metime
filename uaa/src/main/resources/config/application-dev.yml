@@ -33,7 +33,7 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/uaa
+        url: jdbc:postgresql://10.17.50.77:5432/uaa
         username: postgres
         password: zakky
     jpa:
@@ -82,7 +82,7 @@ liquibase:
 #        keyAlias: uaa
 # ===================================================================
 server:
-    port: 9901
+    port: 8080
 
 # ===================================================================
 # JHipster specific properties
