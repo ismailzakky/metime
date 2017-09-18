@@ -354,6 +354,7 @@
     </dependencies>
     <build>
         <defaultGoal>spring-boot:run</defaultGoal>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
