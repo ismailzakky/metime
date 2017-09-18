@@ -16,7 +16,7 @@
 
 spring:
     application:
-        name: jhipster-registry
+        name: registry
     jackson:
         serialization.write_dates_as_timestamps: false
     mvc:
@@ -28,8 +28,8 @@ spring:
 server:
     port: 8761
 
-logging:
-    file: target/jhipster-registry.log
+# logging:
+#     file: target/jhipster-registry.log
 
 ribbon:
     eureka:
